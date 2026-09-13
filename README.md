@@ -52,11 +52,9 @@ Focus  : AI Automation & Bots
 Status : Building Sahyom  AI
 ```
 ### 🛠 Tech I use
-[
-
-![My Skills](https://skillicons.dev/icons?i=python,js,react,nextjs,nodejs,html,css,git,github,vscode)
-
-](https://skillicons.dev)
+<marquee behavior="scroll" direction="left" scrollamount="4">
+  <img src="https://skillicons.dev/icons?i=python,js,react,nextjs,nodejs,html,css,git,github,vscode" />
+</marquee>
 
 ### 🔗 Links
 [WhatsApp](https://wa.me/919559124698) • [Portfolio](https://naruffy9395.github.io/Sahil-landing-page-/)
