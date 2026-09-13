@@ -1,12 +1,11 @@
-\`\`\`
-┌─[ Sahil Saroj ]─────────────────────────┐
-│ Role     : Self-Taught Developer          │
-│ Origin   : Bhadohi, UP, India             │
-│ Focus    : AI Automation, Bots, Shopify   │
-│ Status   : Building Sahyom AI 🚀          │
-└────────────────────────────────────────────┘
-\`\`\`
-
+```
+Sahil Saroj
+------------------------------
+Role   : Self-Taught Developer
+Origin : Bhadohi, UP, India
+Focus  : AI Automation & Bots
+Status : Building Sahyom  AI
+```
 ### 🛠 Tech I use
 `Python` `JavaScript` `Next.js` `Shopify` `Telegram Bot API` `WhatsApp Cloud API`
 
