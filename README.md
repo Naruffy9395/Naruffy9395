@@ -1,3 +1,5 @@
+
+![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1000&color=33C9B0&center=true&vCenter=true&width=500&lines=Sahil+Saroj;Self-Taught+Developer;Building+Sahyom+AI+%F0%9F%9A%80)
 ```
 Sahil Saroj
 ------------------------------
