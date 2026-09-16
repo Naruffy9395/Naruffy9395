@@ -68,4 +68,4 @@ Status : Building Sahyom  AI
 
 ](https://naruffy9395.github.io/Sahil-landing-page-/)
 
-![snake](https://raw.githubusercontent.com/Naruffy9395/Naruffy9395/output/github-contribution-grid-snake-dark.svg)
+![dino](https://raw.githubusercontent.com/Naruffy9395/Naruffy9395/main/dino.svg)
