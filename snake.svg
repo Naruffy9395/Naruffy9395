@@ -1,0 +1,106 @@
+<svg viewBox="0 0 700 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="snakeGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3fb950"/>
+      <stop offset="50%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#bc8cff"/>
+    </linearGradient>
+    <filter id="snakeGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="700" height="180" fill="url(#bg2)" rx="12"/>
+
+  <g stroke="#21262d" stroke-width="0.5" opacity="0.4">
+    <line x1="0" y1="20" x2="700" y2="20"/>
+    <line x1="0" y1="40" x2="700" y2="40"/>
+    <line x1="0" y1="60" x2="700" y2="60"/>
+    <line x1="0" y1="80" x2="700" y2="80"/>
+    <line x1="0" y1="100" x2="700" y2="100"/>
+    <line x1="0" y1="120" x2="700" y2="120"/>
+    <line x1="0" y1="140" x2="700" y2="140"/>
+    <line x1="50" y1="0" x2="50" y2="180"/>
+    <line x1="100" y1="0" x2="100" y2="180"/>
+    <line x1="150" y1="0" x2="150" y2="180"/>
+    <line x1="200" y1="0" x2="200" y2="180"/>
+    <line x1="250" y1="0" x2="250" y2="180"/>
+    <line x1="300" y1="0" x2="300" y2="180"/>
+    <line x1="350" y1="0" x2="350" y2="180"/>
+    <line x1="400" y1="0" x2="400" y2="180"/>
+    <line x1="450" y1="0" x2="450" y2="180"/>
+    <line x1="500" y1="0" x2="500" y2="180"/>
+    <line x1="550" y1="0" x2="550" y2="180"/>
+    <line x1="600" y1="0" x2="600" y2="180"/>
+    <line x1="650" y1="0" x2="650" y2="180"/>
+  </g>
+
+  <g fill="#1f6feb" opacity="0.12">
+    <rect x="50" y="20" width="20" height="20" rx="3"/>
+    <rect x="100" y="40" width="20" height="20" rx="3"/>
+    <rect x="150" y="60" width="20" height="20" rx="3"/>
+    <rect x="200" y="80" width="20" height="20" rx="3"/>
+    <rect x="250" y="100" width="20" height="20" rx="3"/>
+    <rect x="300" y="120" width="20" height="20" rx="3"/>
+    <rect x="350" y="100" width="20" height="20" rx="3"/>
+    <rect x="400" y="80" width="20" height="20" rx="3"/>
+    <rect x="450" y="60" width="20" height="20" rx="3"/>
+    <rect x="500" y="40" width="20" height="20" rx="3"/>
+    <rect x="550" y="20" width="20" height="20" rx="3"/>
+    <rect x="600" y="40" width="20" height="20" rx="3"/>
+    <rect x="650" y="60" width="20" height="20" rx="3"/>
+  </g>
+
+  <g filter="url(#snakeGlow)">
+    <g fill="url(#snakeGrad)">
+      <rect x="10" y="100" width="18" height="18" rx="4" opacity="1"/>
+      <rect x="32" y="100" width="18" height="18" rx="4" opacity="0.95"/>
+      <rect x="54" y="100" width="18" height="18" rx="4" opacity="0.9"/>
+      <rect x="76" y="100" width="18" height="18" rx="4" opacity="0.85"/>
+      <rect x="98" y="100" width="18" height="18" rx="4" opacity="0.8"/>
+      <rect x="120" y="100" width="18" height="18" rx="4" opacity="0.75"/>
+      <rect x="142" y="100" width="18" height="18" rx="4" opacity="0.7"/>
+      <rect x="164" y="100" width="18" height="18" rx="4" opacity="0.65"/>
+      <rect x="186" y="100" width="18" height="18" rx="4" opacity="0.6"/>
+      <rect x="208" y="100" width="18" height="18" rx="4" opacity="0.55"/>
+      <rect x="230" y="100" width="18" height="18" rx="4" opacity="0.5"/>
+      <rect x="252" y="100" width="18" height="18" rx="4" opacity="0.45"/>
+      <rect x="274" y="100" width="18" height="18" rx="4" opacity="0.4"/>
+    </g>
+    <circle cx="19" cy="109" r="3" fill="#3fb950"/>
+    <circle cx="20" cy="108" r="1.5" fill="#ffffff"/>
+    <animateTransform attributeName="transform" type="translate"
+      values="0,0; 0,-80; 200,-80; 200,0; 400,0; 400,-80; 600,-80; 600,0; 660,0"
+      keyTimes="0; 0.15; 0.25; 0.4; 0.55; 0.65; 0.8; 0.9; 1"
+      dur="6s" repeatCount="indefinite"
+      calcMode="spline"
+      keySplines="0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1"/>
+  </g>
+
+  <g>
+    <circle cx="0" cy="0" r="6" fill="#f0883e" opacity="0.8"/>
+    <animateTransform attributeName="transform" type="translate"
+      values="19,109; 19,29; 219,29; 219,109; 419,109; 419,29; 619,29; 619,109; 679,109"
+      keyTimes="0; 0.15; 0.25; 0.4; 0.55; 0.65; 0.8; 0.9; 1"
+      dur="6s" repeatCount="indefinite"
+      calcMode="spline"
+      keySplines="0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1"/>
+  </g>
+
+  <text x="350" y="165" font-family="monospace" font-size="11" fill="#8b949e" opacity="0.5" text-anchor="middle">
+    SCORE: 09999
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2s" repeatCount="indefinite"/>
+  </text>
+
+  <text x="10" y="165" font-family="monospace" font-size="9" fill="#3fb950" opacity="0.4">
+    &gt;_ snake.ai
+  </text>
+</svg>
